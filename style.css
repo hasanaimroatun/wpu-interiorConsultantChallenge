@@ -3,6 +3,24 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'montserrat';
+    src: local('montserrat'),
+        url(./font/montserrat-regular-webfont.woff2), format('woff2');
+}
+
+@font-face {
+    font-family: 'lora';
+    src: local('lora'),
+        url(./font/lora-regular-webfont.woff2), format('woff2');
+}
+
+@font-face {
+    font-family: 'crimson';
+    src: local('crimson'),
+        url(./font/crimson-roman-webfont.woff2), format('woff2');
+}
+
 body {
     background-color:#181719;
     color: white;
