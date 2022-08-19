@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "interior-consultant-challenge-003",
     "public": "public",
     "ignore": [
       "firebase.json",
