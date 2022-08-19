@@ -412,7 +412,7 @@ a {
     /* css for burgerBtn */
 
     .burgerButton {
-        position: absolute;
+        position: fixed;
         right: 40px;
         top: 26px;
         display: flex;
