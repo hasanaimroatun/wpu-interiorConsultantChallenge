@@ -5,20 +5,17 @@
 
 @font-face {
     font-family: 'montserrat';
-    src: local('montserrat'),
-        url(./font/montserrat-regular-webfont.woff2), format('woff2');
+    src: url(./font/montserrat-regular-webfont.woff2), format('woff2');
 }
 
 @font-face {
     font-family: 'lora';
-    src: local('lora'),
-        url(./font/lora-regular-webfont.woff2), format('woff2');
+    src: url(./font/lora-regular-webfont.woff2), format('woff2');
 }
 
 @font-face {
     font-family: 'crimson';
-    src: local('crimson'),
-        url(./font/crimson-roman-webfont.woff2), format('woff2');
+    src: url(./font/crimson-roman-webfont.woff2), format('woff2');
 }
 
 body {
@@ -58,11 +55,13 @@ header {
     margin-left: 85px;
     height: 16px;
     margin-top: 26px;
+    position: absolute;
 }
 
 .button {
     display: flex;
     column-gap: 93px;
+    margin-left: 55%;
 }
 
 .button button {
@@ -282,7 +281,7 @@ a {
         margin-top: 25px;
     }
 
-    .material-icons {
+    .material-symbols-outlined {
         margin-top: -4px;
     }
 
